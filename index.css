@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+.nav-page1{
+    background-image: url(/assets/home-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white !important;
+    background-color: black;
+    /* position: relative; */
+}
+
+
+.nav-bar{
+    padding: 10px 65px;
+    background-color: #051232;
+}
+.company-logo{
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.company-name{
+    margin-top: 10px !important;
+}
+.navhead{
+    padding: 0 !important;
+    font-family: "Kanit", sans-serif !important;
+    margin: 0px 0px 0 18px !important;
+    font-size: 40px !important;
+    color: white !important;
+    font-weight: 500;
+}
+
+.nav-menu{
+    margin-right:40px ;
+}
+.navalink{
+    font-family: "Kanit", sans-serif !important;
+    color: white !important;
+    font-size: 20px !important;
+    padding-right: 25px !important;
+}
+
+.navalink:hover{
+    color: #759bd1 !important;
+}
+
+.head-login{
+    font-family: "Kanit", sans-serif !important;
+    padding: 10px 40px !important;
+    font-size: 20px !important;
+    letter-spacing: 0.9px !important;
+    border-radius: 5px !important;
+    border: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #0992db 0%, #044eb4 41%, #24668f 100%);
+    /* background-image: url(/assets/bg-3.jpg) !important; */
+    margin-right: 15px;
+    color: rgb(255, 255, 255) !important;
+}
+
+.dropbutton{
+    font-size: 20px !important;
+    margin-top: 9px;
+    padding: 0 15px 0 0 !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+
+.page1 h1{
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 74px;
+}
+
+.page1 p{
+    font-size: 20px;
+    /* font-family: ; */
+    font-family: 'Figtree',sans-serif;
+}
+
+
+.page1-btn{
+    font-family: "Kanit", sans-serif !important;
+    padding: 10px 40px !important;
+    font-size: 20px !important;
+    letter-spacing: 0.5px !important;
+    border-radius: 5px !important;
+    border: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #0992db 0%, #044eb4 41%, #24668f 100%);
+    /* background-image: url(/assets/bg-3.jpg) !important; */
+    margin-right: 15px;
+    color: rgb(255, 255, 255) !important;
+}
+
+
+/* CARDS */
+
+.cards{
+    position: absolute;
+    z-index:1;
+    /* margin-bottom: 25px; */
+    /* top: 205px; */
+    top: 110%;
+    /* bottom: 5%; */
+    left: 6%;
+}
+.card{
+    background-color: #14192D !important;
+}
+
+.card h1,p {
+    color: rgb(255, 246, 246) !important;
+}
+
+/* ABOUT CYBER */
+
+.cyber{
+     background-color: #000921;
+     position: relative;
+     padding-top: 8%;
+}
+
+/* .cyber-top{
+    
+} */
+.cyber-head{
+    /* padding-top: 20px; */
+    color: white;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 48px;
+}
+
+.cyber-box{
+    margin: 10px 0px 10px 20px;
+    background-color: #14192D;
+    padding: 20px 15px 10px;
+    border-radius: 15px;
+}
+
+.cyber-box-head{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: 550;
+    
+}
+
+.cyber-box-para{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(118, 114, 114) !important;
+}
+
+
+/* OUR WORK */
+
+
+.work-head-para{
+    color: rgb(216, 215, 215);
+}
+
+.work-head{
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.work-para{
+    color: rgb(118, 114, 114) !important;
+    font-size: 35px;
+    font-weight: 550;
+    text-transform: capitalize;
+}
+@keyframes slides {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 25px 0px;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logos:before, .logos:after {
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 250px;
+    height: 100%;
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    /* background: linear-gradient(to left, rgba(255,255,255,0), rgb(255, 255, 255)); */
+  }
+  
+  .logos:after {
+    right: 0;
+    /* background: linear-gradient(to right, rgba(255,255,255,0), rgb(255, 255, 255)); */
+  }
+  
+  .logo_items {
+    display: inline-block;
+    animation: 20s slides infinite linear;
+  }
+  
+  .logos:hover .logo_items {
+    animation-play-state: paused;
+  }
+  
+  .logo_items img{
+    height: 55px;
+    margin-right: 105px;
+  }
+
+.work{
+    border-top: 1px dashed rgb(83, 72, 72);
+    background-color:#000921;
+}
+.logos{
+    /* background-color: #12f0e9; */
+    color: rgb(118, 114, 114) !important;
+
+}
